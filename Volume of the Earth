@@ -1,0 +1,11 @@
+import math
+
+# Constants
+RADIUS_EARTH = 6.37 * 10**6  # meters
+PI = 3.141592653589793  # approximately
+
+# Calculate the volume of the Earth
+volume_earth = (4/3) * PI * (RADIUS_EARTH**3)
+
+# Print the result
+print("The volume of the Earth is approximately", volume_earth, "cubic meters.")
